@@ -29,5 +29,8 @@ my_dict = {'exchange rate': exchange_rate, 'currency_icons': currency_icons}
 with open('file.yaml', 'w', encoding='utf-8') as yaml_file:
     yaml.safe_dump(my_dict, yaml_file, default_flow_style=False, allow_unicode=True)
 
+with open('file.yaml', 'r', encoding='utf-8') as yaml_file:
+    print(my_dict == yaml.load(yaml_file))
+
 
 print(my_dict)

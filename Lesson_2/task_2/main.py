@@ -52,7 +52,7 @@ def write_json(file, orders_data):
         data = json.load(json_file)
 
     data['orders'].append(orders_data)
-    with open(file, 'w') as json_file:
+    with open(file, 'w', encoding='utf-8') as json_file:
         json.dump(data, json_file, ensure_ascii=False, indent=4)
 
 
