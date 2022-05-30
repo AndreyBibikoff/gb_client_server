@@ -45,3 +45,5 @@ def write_csv(file, data_files):
 
 
 write_csv('data_report.csv', txt)
+
+# Неправильно запушил
