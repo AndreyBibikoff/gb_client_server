@@ -1,0 +1,7 @@
+currency_icons:
+  euro: €
+  russian_ruble: ₽
+  usa_dollar: $
+exchange rate:
+  1$: 73,70₽
+  1€: 87,02₽

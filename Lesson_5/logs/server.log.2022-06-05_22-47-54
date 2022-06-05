@@ -1,0 +1,5 @@
+2022-06-05 22:47:54,370 INFO     server.py server Установлено соедение с ('127.0.0.1', 51609)
+2022-06-05 22:47:54,371 DEBUG    server.py server Получено сообщение {'action': 'presence', 'time': 1654454874.3703778, 'user': {'account_name': 'User'}}
+2022-06-05 22:47:54,371 DEBUG    server.py server Cообщениe от клиента : {'action': 'presence', 'time': 1654454874.3703778, 'user': {'account_name': 'User'}}
+2022-06-05 22:47:54,371 INFO     server.py server Отправлен ответ клиенту {'response': 200}
+2022-06-05 22:47:54,371 DEBUG    server.py server Закрывается соединение с ('127.0.0.1', 51609)
