@@ -1,0 +1,5 @@
+2022-06-05 22:46:19,663 INFO     server.py server Установлено соедение с ('127.0.0.1', 51531)
+2022-06-05 22:46:19,664 DEBUG    server.py server Получено сообщение {'action': 'presence', 'time': 1654454779.6624691, 'user': {'account_name': 'User'}}
+2022-06-05 22:46:19,664 DEBUG    server.py server Cообщениe от клиента : {'action': 'presence', 'time': 1654454779.6624691, 'user': {'account_name': 'User'}}
+2022-06-05 22:46:19,664 INFO     server.py server Отправлен ответ клиенту {'response': 200}
+2022-06-05 22:46:19,664 DEBUG    server.py server Закрывается соединение с ('127.0.0.1', 51531)
